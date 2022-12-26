@@ -1,0 +1,42 @@
+.sliderWrapper {
+  padding: 10px, 30px;
+  padding-right: 30px;
+}
+.slick-slider {
+  padding: 5px;
+}
+.slick-slide > div {
+  margin: 0 10px 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+.row_posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+  min-height: 100px;
+  min-width: 150px;
+
+  /* overscroll-behavior: auto; */
+}
+.row_poster:hover {
+  transform: scale(1.08);
+}
+.row_poster_large {
+  max-height: 250px;
+}
+.row_img {
+  max-width: 100%;
+  object-fit: contain;
+  transition: transform 450ms;
+}
+.row_img:hover {
+  transform: scale(1.2);
+}
+.row {
+  margin-left: 20px;
+  color: white;
+  position: relative;
+}

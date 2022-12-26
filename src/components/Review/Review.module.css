@@ -1,0 +1,14 @@
+.card {
+  background-color: #111;
+  padding: 0 30px 10px 30px;
+}
+.title {
+  font-style: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+  color: white;
+}
+.description {
+  font-size: 0.8rem;
+  color: white;
+}

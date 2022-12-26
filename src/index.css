@@ -7,6 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #111;
 }
 
 code {
@@ -14,4 +15,17 @@ code {
     monospace;
 }
 ul {
-  list-style-type: none}
+  list-style-type: none;
+}
+h2 {
+  margin: 0;
+}
+.app {
+  background-color: #111;
+}
+p {
+  margin-bottom: 0;
+}
+.slick-list {
+  padding: 20px 0 !important;
+}

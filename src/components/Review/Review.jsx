@@ -1,7 +1,10 @@
 import { getReviews } from 'helpers/api';
+import instance from 'helpers/axios';
+import { reqwests } from 'helpers/reqwest';
 import React from 'react';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import css from './Review.module.css';
 
 export default function Review() {
   const [reviews, setReviews] = useState([]);
@@ -10,16 +13,23 @@ export default function Review() {
 
   useEffect(() => {
     async function getReviewsApi() {
-      const data = await getReviews(movieId);
-      setReviews(data.results);
+      try {
+        const { data } = await instance(reqwests.fetchReview(movieId));
+        setReviews(data.results);
+      } catch (e) {}
     }
     getReviewsApi();
   }, [movieId]);
 
-  return reviews && reviews.map(({ author, content, id }) => {return(
-    <div className="card-body card" key={id}>
-      <h2 className="card-title">{`${author}`}</h2>
-      <p className="card-text">{`${content}`}</p>
-    </div>)
-  });
+  return (
+    reviews &&
+    reviews.map(({ author, content, id }) => {
+      return (
+        <div className={css.card} key={id}>
+          <h2 className={css.title}>{`${author}`}</h2>
+          <p className={css.description}>{`${content}`}</p>
+        </div>
+      );
+    })
+  );
 }
