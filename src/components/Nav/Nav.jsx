@@ -22,9 +22,9 @@ export default function Nav() {
       };
     });
   }, []);
-  const handleSigninClick = () => {
-    setIsSigninModalOpen(true);
-  };
+  // const handleSigninClick = () => {
+  //   setIsSigninModalOpen(true);
+  // };
   const handleCloseSiginModal = () => {
     setIsSigninModalOpen(false);
   };
@@ -34,8 +34,6 @@ export default function Nav() {
         <Link to="/" className={`${disabled} ${nav_logo}`}>
           Net-flix
         </Link>
-        {/* <p ></p> */}
-        {/* <img className={nav_logo} src={logo} alt="logo" /> */}
         <div>
           <ul className={nav_list}>
             <li>
@@ -48,7 +46,7 @@ export default function Nav() {
                 Movies
               </NavLink>
             </li>
-            <button type="button" onClick={handleSigninClick}></button>
+            {/* <button type="button" onClick={handleSigninClick}></button> */}
             {isSigninModalOpen && (
               <SigninModal closeModal={handleCloseSiginModal} />
             )}

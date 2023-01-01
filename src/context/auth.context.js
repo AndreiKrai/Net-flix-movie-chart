@@ -1,4 +1,3 @@
-// we didn't use context now
 // import React, { useState } from 'react';
 // const { createContext } = require('react');
 
@@ -16,7 +15,9 @@
 //     setSessionId(id);
 //   };
 //   return (
-//     <AuthContext.Provider value={{ changeToken, token, sessionId }}>
+//     <AuthContext.Provider
+//       value={{ changeToken, token, sessionId, changeSessionId }}
+//     >
 //       {children}
 //       {/* обгортаємо Арр для того щоб тут можно було змінювати value */}
 //     </AuthContext.Provider>

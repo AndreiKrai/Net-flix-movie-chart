@@ -1,15 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
-// import SearchForm from '../pages/SearchPage/SearchForm';
-// import SingleMoviePage from 'pages/SingleMoviePage';
-// import Casts from 'pages/Casts/Casts';
-// import Review from 'pages/Review/Review';
-// import NotFoundPage from 'pages/NotFoundPage/NotFoundPage';
-// import HomePage from 'pages/HomePage/HomePage';
-// import ActorPage from 'pages/ActorPage/ActorPage';
 import { lazy, Suspense } from 'react';
 import Nav from './Nav/Nav';
-import { useContext } from 'react';
-import { AuthContext } from 'context/auth.context';
+// import { useContext } from 'react';
+// import { AuthContext } from 'context/auth.context';
 
 const SearchForm = lazy(() => import('../pages/SearchPage/SearchForm'));
 const SingleMoviePage = lazy(() => import('pages/SingleMoviePage'));
@@ -20,9 +13,9 @@ const HomePage = lazy(() => import('pages/HomePage/HomePage'));
 const ActorPage = lazy(() => import('pages/ActorPage/ActorPage'));
 
 export const App = () => {
-  const context = useContext(AuthContext);
-  const { changeToken } = context;
-  changeToken();
+  // const context = useContext(AuthContext);
+  // const { changeToken } = context;
+  // changeToken();
   return (
     <div className="app">
       <Nav />
