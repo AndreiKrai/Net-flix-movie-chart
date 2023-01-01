@@ -1,6 +1,5 @@
 import Banner from 'components/Banner/Banner';
 import MovieSlider from 'components/MovieSlider/MovieSlider';
-import Row from 'components/Row/Row';
 import { reqwests } from 'helpers/reqwest';
 import React from 'react';
 import { useState, useEffect } from 'react';

@@ -1,16 +1,11 @@
 import ActorsSlider from 'components/ActorsSlider/ActorsSlider';
-import Row from 'components/Row/Row';
-import { getCasts } from 'helpers/api';
 import { reqwests } from 'helpers/reqwest';
 import React from 'react';
-import { useEffect, useState } from 'react';
-import { Link, useLocation, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
 export default function Casts() {
-  const [casts, setCasts] = useState();
   const params = useParams();
   const movieId = params.movieId;
-  const location = useLocation();
 
   // useEffect(() => {
   //   async function getCastsApi() {

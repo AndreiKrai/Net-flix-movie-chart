@@ -3,7 +3,6 @@
 import { useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import Banner from 'components/Banner/Banner';
-import Row from 'components/Row/Row';
 import { reqwests } from 'helpers/reqwest';
 import MovieSlider from 'components/MovieSlider/MovieSlider';
 // import { useNavigate } from 'react-router-dom';

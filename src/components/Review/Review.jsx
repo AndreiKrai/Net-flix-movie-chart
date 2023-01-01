@@ -1,4 +1,3 @@
-import { getReviews } from 'helpers/api';
 import instance from 'helpers/axios';
 import { reqwests } from 'helpers/reqwest';
 import React from 'react';

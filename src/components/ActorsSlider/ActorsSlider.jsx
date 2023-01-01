@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import instance from 'helpers/axios';
 import './ActorsSlider.css';
 
