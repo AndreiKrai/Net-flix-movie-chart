@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/Net-flix-movie-chart/static/css/main.ba79a757.css",
-    "main.js": "/Net-flix-movie-chart/static/js/main.e3f3c643.js",
+    "main.js": "/Net-flix-movie-chart/static/js/main.43681314.js",
     "static/css/929.40aa1413.chunk.css": "/Net-flix-movie-chart/static/css/929.40aa1413.chunk.css",
-    "static/js/929.280d62f5.chunk.js": "/Net-flix-movie-chart/static/js/929.280d62f5.chunk.js",
+    "static/js/929.ffc58cab.chunk.js": "/Net-flix-movie-chart/static/js/929.ffc58cab.chunk.js",
     "static/css/124.40aa1413.chunk.css": "/Net-flix-movie-chart/static/css/124.40aa1413.chunk.css",
     "static/js/124.7afc8f32.chunk.js": "/Net-flix-movie-chart/static/js/124.7afc8f32.chunk.js",
     "static/css/346.051999e4.chunk.css": "/Net-flix-movie-chart/static/css/346.051999e4.chunk.css",
@@ -23,9 +23,9 @@
     "static/media/slick.woff": "/Net-flix-movie-chart/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Net-flix-movie-chart/index.html",
     "main.ba79a757.css.map": "/Net-flix-movie-chart/static/css/main.ba79a757.css.map",
-    "main.e3f3c643.js.map": "/Net-flix-movie-chart/static/js/main.e3f3c643.js.map",
+    "main.43681314.js.map": "/Net-flix-movie-chart/static/js/main.43681314.js.map",
     "929.40aa1413.chunk.css.map": "/Net-flix-movie-chart/static/css/929.40aa1413.chunk.css.map",
-    "929.280d62f5.chunk.js.map": "/Net-flix-movie-chart/static/js/929.280d62f5.chunk.js.map",
+    "929.ffc58cab.chunk.js.map": "/Net-flix-movie-chart/static/js/929.ffc58cab.chunk.js.map",
     "124.40aa1413.chunk.css.map": "/Net-flix-movie-chart/static/css/124.40aa1413.chunk.css.map",
     "124.7afc8f32.chunk.js.map": "/Net-flix-movie-chart/static/js/124.7afc8f32.chunk.js.map",
     "346.051999e4.chunk.css.map": "/Net-flix-movie-chart/static/css/346.051999e4.chunk.css.map",
@@ -42,6 +42,6 @@
   },
   "entrypoints": [
     "static/css/main.ba79a757.css",
-    "static/js/main.e3f3c643.js"
+    "static/js/main.43681314.js"
   ]
 }
