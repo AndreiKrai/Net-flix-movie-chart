@@ -59,13 +59,13 @@ export default function SearchForm() {
           isLargePicture={true}
         />
       )} */}
-      <MovieSlider
-        title="Search results"
-        fetchURL={reqwests.fetchMovieByName(query)}
-        isLargePicture={true}
-      />
-
-      {/* {movieList && <MovieList movieFromApi={movieList} header={null} />} */}
+      {query && (
+        <MovieSlider
+          title="Search results"
+          fetchURL={reqwests.fetchMovieByName(query)}
+          isLargePicture={true}
+        />
+      )}
     </>
   );
 }
