@@ -44,7 +44,7 @@ export default function TrailerModal({ trailerMovieName, closeModal }) {
   return (
     <div className={css.overlayModal} onClick={handleClick}>
       <div className={css['modal-div']}>
-        <YouTube videoId="XtMThy8QKqU" opts={opts} />
+        <YouTube videoId="AiohkY_XQYQ" opts={opts} />
       </div>
     </div>
   );
