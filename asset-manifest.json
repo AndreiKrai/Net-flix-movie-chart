@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/Net-flix-movie-chart/static/css/main.ba79a757.css",
-    "main.js": "/Net-flix-movie-chart/static/js/main.43681314.js",
+    "main.js": "/Net-flix-movie-chart/static/js/main.661eac10.js",
     "static/css/929.40aa1413.chunk.css": "/Net-flix-movie-chart/static/css/929.40aa1413.chunk.css",
-    "static/js/929.ffc58cab.chunk.js": "/Net-flix-movie-chart/static/js/929.ffc58cab.chunk.js",
+    "static/js/929.ea6e521e.chunk.js": "/Net-flix-movie-chart/static/js/929.ea6e521e.chunk.js",
     "static/css/124.40aa1413.chunk.css": "/Net-flix-movie-chart/static/css/124.40aa1413.chunk.css",
-    "static/js/124.7afc8f32.chunk.js": "/Net-flix-movie-chart/static/js/124.7afc8f32.chunk.js",
+    "static/js/124.effae301.chunk.js": "/Net-flix-movie-chart/static/js/124.effae301.chunk.js",
     "static/css/346.051999e4.chunk.css": "/Net-flix-movie-chart/static/css/346.051999e4.chunk.css",
     "static/js/346.d479e294.chunk.js": "/Net-flix-movie-chart/static/js/346.d479e294.chunk.js",
     "static/css/638.38b39548.chunk.css": "/Net-flix-movie-chart/static/css/638.38b39548.chunk.css",
     "static/js/638.ab7ef626.chunk.js": "/Net-flix-movie-chart/static/js/638.ab7ef626.chunk.js",
     "static/js/794.baa1eed9.chunk.js": "/Net-flix-movie-chart/static/js/794.baa1eed9.chunk.js",
     "static/css/959.40aa1413.chunk.css": "/Net-flix-movie-chart/static/css/959.40aa1413.chunk.css",
-    "static/js/959.ddd83459.chunk.js": "/Net-flix-movie-chart/static/js/959.ddd83459.chunk.js",
+    "static/js/959.f9dacc1d.chunk.js": "/Net-flix-movie-chart/static/js/959.f9dacc1d.chunk.js",
     "static/js/156.de271f26.chunk.js": "/Net-flix-movie-chart/static/js/156.de271f26.chunk.js",
     "static/js/317.eb89ed0a.chunk.js": "/Net-flix-movie-chart/static/js/317.eb89ed0a.chunk.js",
     "static/js/413.316b3479.chunk.js": "/Net-flix-movie-chart/static/js/413.316b3479.chunk.js",
@@ -23,18 +23,18 @@
     "static/media/slick.woff": "/Net-flix-movie-chart/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Net-flix-movie-chart/index.html",
     "main.ba79a757.css.map": "/Net-flix-movie-chart/static/css/main.ba79a757.css.map",
-    "main.43681314.js.map": "/Net-flix-movie-chart/static/js/main.43681314.js.map",
+    "main.661eac10.js.map": "/Net-flix-movie-chart/static/js/main.661eac10.js.map",
     "929.40aa1413.chunk.css.map": "/Net-flix-movie-chart/static/css/929.40aa1413.chunk.css.map",
-    "929.ffc58cab.chunk.js.map": "/Net-flix-movie-chart/static/js/929.ffc58cab.chunk.js.map",
+    "929.ea6e521e.chunk.js.map": "/Net-flix-movie-chart/static/js/929.ea6e521e.chunk.js.map",
     "124.40aa1413.chunk.css.map": "/Net-flix-movie-chart/static/css/124.40aa1413.chunk.css.map",
-    "124.7afc8f32.chunk.js.map": "/Net-flix-movie-chart/static/js/124.7afc8f32.chunk.js.map",
+    "124.effae301.chunk.js.map": "/Net-flix-movie-chart/static/js/124.effae301.chunk.js.map",
     "346.051999e4.chunk.css.map": "/Net-flix-movie-chart/static/css/346.051999e4.chunk.css.map",
     "346.d479e294.chunk.js.map": "/Net-flix-movie-chart/static/js/346.d479e294.chunk.js.map",
     "638.38b39548.chunk.css.map": "/Net-flix-movie-chart/static/css/638.38b39548.chunk.css.map",
     "638.ab7ef626.chunk.js.map": "/Net-flix-movie-chart/static/js/638.ab7ef626.chunk.js.map",
     "794.baa1eed9.chunk.js.map": "/Net-flix-movie-chart/static/js/794.baa1eed9.chunk.js.map",
     "959.40aa1413.chunk.css.map": "/Net-flix-movie-chart/static/css/959.40aa1413.chunk.css.map",
-    "959.ddd83459.chunk.js.map": "/Net-flix-movie-chart/static/js/959.ddd83459.chunk.js.map",
+    "959.f9dacc1d.chunk.js.map": "/Net-flix-movie-chart/static/js/959.f9dacc1d.chunk.js.map",
     "156.de271f26.chunk.js.map": "/Net-flix-movie-chart/static/js/156.de271f26.chunk.js.map",
     "317.eb89ed0a.chunk.js.map": "/Net-flix-movie-chart/static/js/317.eb89ed0a.chunk.js.map",
     "413.316b3479.chunk.js.map": "/Net-flix-movie-chart/static/js/413.316b3479.chunk.js.map",
@@ -42,6 +42,6 @@
   },
   "entrypoints": [
     "static/css/main.ba79a757.css",
-    "static/js/main.43681314.js"
+    "static/js/main.661eac10.js"
   ]
 }
